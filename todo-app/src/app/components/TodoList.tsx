@@ -39,7 +39,7 @@ const TodoList = () => {
     };
 
     return (
-        <div className='p-4'>
+        <div className='p-4 w-full max-w-md w-full bg-white rounded shadow'>
             {/* 新しいタスクの入力フィールド */}
             <input {...inputProps} />
             {/* タスクをレンダリング */}
